@@ -40,6 +40,5 @@ int main(void) {
   int n;
   std::cin >> n;
   std::cout << Fibonacci::get(n) << std::endl;
-  std::cout << Fibonacci::get_with_array(n) << std::endl;
   return 0;
 }
