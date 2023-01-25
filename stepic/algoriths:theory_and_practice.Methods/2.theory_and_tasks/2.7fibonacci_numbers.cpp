@@ -15,11 +15,10 @@ class Fibonacci final {
         for (int i = 2; i < n + 1;i++ ) {
             array[i] = array[i-1] + array[i-2];
         }
-        assert(array[n] == get(n));
         return array[n];
       }
 
-      static int get(int n) {
+      static int get_remainder(int n) {
         assert(n >= 0);
         if (n < 2) {
             return n;
@@ -39,6 +38,6 @@ class Fibonacci final {
 int main(void) {
     int n;
     std::cin >> n;
-    std::cout << Fibonacci::get(n) << std::endl;
+    std::cout << Fibonacci::get_remainder(n) << std::endl;
     return 0;
 }
