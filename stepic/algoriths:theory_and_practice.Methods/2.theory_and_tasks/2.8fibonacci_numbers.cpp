@@ -20,7 +20,7 @@ class Fibonacci final {
                 current     = new_current;
                 array[i]    = new_current;
                 if (START_PERIOD(array[i],array[i - 1])) { 
-                    index = i -1;
+                    index = i - 1;
                     break;
                 }
             }
