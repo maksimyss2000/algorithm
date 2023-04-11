@@ -1,3 +1,5 @@
+/* required c++ 20. Example:  g++ -std=c++20 1.1.cpp && ./a.out */
+
 #include <iostream>
 #include <stack>
 #include <string>
